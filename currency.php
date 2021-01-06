@@ -5,7 +5,9 @@
    ini_set('display_startup_errors', '1');
    error_reporting(E_ALL);
 
-   echo $_GET["amount"] . " lei is so much euros.";
+   $exhangerate = 0.2053;
+
+   echo $_POST["amount"] . " lei is " . round($_POST["amount"]*$exhangerate, 2) . " euros.";
 
 ?>
 
