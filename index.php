@@ -11,6 +11,9 @@
     <h3>Let's see how much this costs in Romania:</h3>
     <form action="" method="POST">
         Amount: <input type="text" name="amount" >
+        <select id="currency" type="text" name="currency">
+                <option value="LEI">LEI</option>
+                <option value="EURO">EURO</option>
         <input type="submit" name="submit" value="Calculate">
     </form>
 
