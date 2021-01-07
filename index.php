@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,10 +9,12 @@
 <body>
 
     <h3>Let's see how much this costs in Romania:</h3>
-    <form action="currency.php" method="POST">
-        Amount: <input type="number" name="amount" >
-        <input type="submit" value="Calculate">
+    <form action="" method="POST">
+        Amount: <input type="text" name="amount" >
+        <input type="submit" name="submit" value="Calculate">
     </form>
+
+    <?php require_once "currency.php" ?>
     
 </body>
 </html>
